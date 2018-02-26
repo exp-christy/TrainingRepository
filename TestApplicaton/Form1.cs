@@ -25,13 +25,7 @@ namespace TestApplicaton
             Close();
         }
 
-        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
-        {
-            HttpResponseMessage res = new HttpResponseMessage();
-            res.ReasonPhrase = "Enter your name";
-            Form2 frm2 = new Form2(res);
-            frm2.Show(this);
-        }
+       
 
         private void button1_Click_1(object sender, EventArgs e)
         {
@@ -43,6 +37,12 @@ namespace TestApplicaton
         private void btnSignUp_Click(object sender, EventArgs e)
         {
             this.Dispose();
+        }
+
+        private void btnClickMe_Click(object sender, EventArgs e)
+        {
+            Form2 obj = new Form2();
+            obj.ShowDialog();
         }
     }
 }

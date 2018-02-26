@@ -55,11 +55,9 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(110, 137);
+            this.button1.Location = new System.Drawing.Point(238, 137);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "Login";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click_1);
             // 
@@ -83,7 +81,7 @@
             // 
             // btnClickMe
             // 
-            this.btnClickMe.Location = new System.Drawing.Point(191, 137);
+            this.btnClickMe.Location = new System.Drawing.Point(125, 137);
             this.btnClickMe.Name = "btnClickMe";
             this.btnClickMe.Size = new System.Drawing.Size(75, 23);
             this.btnClickMe.TabIndex = 4;
@@ -92,7 +90,7 @@
             // 
             // btnSignUp
             // 
-            this.btnSignUp.Location = new System.Drawing.Point(272, 137);
+            this.btnSignUp.Location = new System.Drawing.Point(19, 137);
             this.btnSignUp.Name = "btnSignUp";
             this.btnSignUp.Size = new System.Drawing.Size(75, 23);
             this.btnSignUp.TabIndex = 9;
@@ -104,7 +102,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(365, 213);
+            this.ClientSize = new System.Drawing.Size(325, 192);
             this.Controls.Add(this.btnSignUp);
             this.Controls.Add(this.btnClickMe);
             this.Controls.Add(this.label2);
