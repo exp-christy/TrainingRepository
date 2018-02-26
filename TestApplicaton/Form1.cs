@@ -32,5 +32,15 @@ namespace TestApplicaton
             Form2 frm2 = new Form2(res);
             frm2.Show(this);
         }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            
+            if(tbUsername.Text=="amal" && tbPassword.Text=="amal")
+            {
+                Form2 obj = new Form2();
+                obj.Show();
+            }
+        }
     }
 }
