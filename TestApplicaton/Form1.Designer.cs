@@ -54,12 +54,9 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(135, 137);
-            this.button1.Location = new System.Drawing.Point(233, 65);
+            this.button1.Location = new System.Drawing.Point(243, 134);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 6;
-            this.button1.Text = "Login";
             this.button1.TabIndex = 0;
             this.button1.Text = "Exit";
             this.button1.UseVisualStyleBackColor = true;
@@ -85,7 +82,7 @@
             // 
             // btnClickMe
             // 
-            this.btnClickMe.Location = new System.Drawing.Point(130, 65);
+            this.btnClickMe.Location = new System.Drawing.Point(162, 134);
             this.btnClickMe.Name = "btnClickMe";
             this.btnClickMe.Size = new System.Drawing.Size(75, 23);
             this.btnClickMe.TabIndex = 4;
@@ -97,8 +94,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(281, 172);
-            this.ClientSize = new System.Drawing.Size(325, 142);
+            this.ClientSize = new System.Drawing.Size(325, 187);
             this.Controls.Add(this.btnClickMe);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
