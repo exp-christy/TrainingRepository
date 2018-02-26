@@ -44,5 +44,11 @@ namespace TestApplicaton
             Form2 obj = new Form2();
             obj.ShowDialog();
         }
+
+        private void btnClickMe_Click_1(object sender, EventArgs e)
+        {
+            Form2 obj = new Form2();
+            obj.ShowDialog();
+        }
     }
 }
