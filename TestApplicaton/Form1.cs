@@ -39,5 +39,10 @@ namespace TestApplicaton
             Form3 frm3 = new Form3();
             frm3.Show(this);
         }
+
+        private void btnSignUp_Click(object sender, EventArgs e)
+        {
+            this.Dispose();
+        }
     }
 }

@@ -30,7 +30,7 @@
         {
             this.lblExcep = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.tbName = new System.Windows.Forms.TextBox();
+ //           this.tbName = new System.Windows.Forms.TextBox();
             this.lblWelcome = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
@@ -53,11 +53,7 @@
             // 
             // tbName
             // 
-            this.tbName.Location = new System.Drawing.Point(191, 53);
-            this.tbName.Name = "tbName";
-            this.tbName.Size = new System.Drawing.Size(100, 20);
-            this.tbName.TabIndex = 1;
-            // 
+
             // btnSubmit
             // 
             this.btnSubmit.Location = new System.Drawing.Point(191, 102);
@@ -84,7 +80,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(366, 192);
             this.Controls.Add(this.btnSubmit);
-            this.Controls.Add(this.tbName);
+            
             this.Controls.Add(this.lblWelcome);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.lblExcep);
