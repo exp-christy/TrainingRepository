@@ -36,7 +36,7 @@ namespace TestApplicaton
         private void button1_Click_1(object sender, EventArgs e)
         {
             
-            if(tbUsername.Text=="amal" && tbPassword.Text=="amal")
+            if(tbUsername.Text=="diamond" && tbPassword.Text=="diamond")
             {
                 Form2 obj = new Form2();
                 obj.Show();
