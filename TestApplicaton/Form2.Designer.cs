@@ -30,6 +30,7 @@
         {
             this.lblExcep = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
+            this.lblWelcome = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // lblExcep
@@ -49,11 +50,22 @@
             this.label1.TabIndex = 1;
             this.label1.Text = "Login Success ";
             // 
+            // lblWelcome
+            // 
+            this.lblWelcome.AutoSize = true;
+            this.lblWelcome.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblWelcome.Location = new System.Drawing.Point(99, 122);
+            this.lblWelcome.Name = "lblWelcome";
+            this.lblWelcome.Size = new System.Drawing.Size(100, 15);
+            this.lblWelcome.TabIndex = 2;
+            this.lblWelcome.Text = "Welcome User";
+            // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(284, 261);
+            this.Controls.Add(this.lblWelcome);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.lblExcep);
             this.Name = "Form2";
@@ -67,5 +79,6 @@
 
         private System.Windows.Forms.Label lblExcep;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label lblWelcome;
     }
 }
