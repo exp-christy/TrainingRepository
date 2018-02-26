@@ -35,13 +35,14 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.btnClickMe = new System.Windows.Forms.Button();
+            this.btnSignUp = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // tbUsername
             // 
-            this.tbUsername.Location = new System.Drawing.Point(110, 40);
+            this.tbUsername.Location = new System.Drawing.Point(110, 39);
             this.tbUsername.Name = "tbUsername";
-            this.tbUsername.Size = new System.Drawing.Size(100, 20);
+            this.tbUsername.Size = new System.Drawing.Size(202, 20);
             this.tbUsername.TabIndex = 4;
             // 
             // tbPassword
@@ -49,12 +50,12 @@
             this.tbPassword.Location = new System.Drawing.Point(110, 94);
             this.tbPassword.Name = "tbPassword";
             this.tbPassword.PasswordChar = '*';
-            this.tbPassword.Size = new System.Drawing.Size(100, 20);
+            this.tbPassword.Size = new System.Drawing.Size(202, 20);
             this.tbPassword.TabIndex = 5;
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(243, 134);
+            this.button1.Location = new System.Drawing.Point(238, 137);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 0;
@@ -82,7 +83,7 @@
             // 
             // btnClickMe
             // 
-            this.btnClickMe.Location = new System.Drawing.Point(162, 134);
+            this.btnClickMe.Location = new System.Drawing.Point(125, 137);
             this.btnClickMe.Name = "btnClickMe";
             this.btnClickMe.Size = new System.Drawing.Size(75, 23);
             this.btnClickMe.TabIndex = 4;
@@ -90,11 +91,21 @@
             this.btnClickMe.UseVisualStyleBackColor = true;
             this.btnClickMe.Click += new System.EventHandler(this.btnClickMe_Click);
             // 
+            // btnSignUp
+            // 
+            this.btnSignUp.Location = new System.Drawing.Point(19, 137);
+            this.btnSignUp.Name = "btnSignUp";
+            this.btnSignUp.Size = new System.Drawing.Size(75, 23);
+            this.btnSignUp.TabIndex = 9;
+            this.btnSignUp.Text = "Sign Up";
+            this.btnSignUp.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(325, 187);
+            this.ClientSize = new System.Drawing.Size(325, 192);
+            this.Controls.Add(this.btnSignUp);
             this.Controls.Add(this.btnClickMe);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
@@ -116,6 +127,7 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button btnClickMe;
+        private System.Windows.Forms.Button btnSignUp;
     }
 }
 

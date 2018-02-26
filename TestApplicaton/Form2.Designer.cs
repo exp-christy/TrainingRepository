@@ -29,23 +29,35 @@
         private void InitializeComponent()
         {
             this.label1 = new System.Windows.Forms.Label();
+            this.lblWelcome = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Segoe Script", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(55, 104);
+            this.label1.Location = new System.Drawing.Point(100, 45);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(165, 34);
             this.label1.TabIndex = 0;
             this.label1.Text = "Welcome user";
             // 
+            // lblWelcome
+            // 
+            this.lblWelcome.AutoSize = true;
+            this.lblWelcome.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblWelcome.Location = new System.Drawing.Point(133, 114);
+            this.lblWelcome.Name = "lblWelcome";
+            this.lblWelcome.Size = new System.Drawing.Size(100, 15);
+            this.lblWelcome.TabIndex = 2;
+            this.lblWelcome.Text = "Welcome User";
+            // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(284, 261);
+            this.ClientSize = new System.Drawing.Size(366, 192);
+            this.Controls.Add(this.lblWelcome);
             this.Controls.Add(this.label1);
             this.Name = "Form2";
             this.Text = "Form2";
@@ -57,5 +69,9 @@
         #endregion
 
         private System.Windows.Forms.Label label1;
+
+        private System.Windows.Forms.Button btnSubmit;
+        private System.Windows.Forms.Label lblWelcome;
+
     }
 }
