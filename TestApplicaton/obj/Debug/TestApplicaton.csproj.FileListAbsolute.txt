@@ -18,3 +18,4 @@ D:\TrainingRepo\TrainingRepository\TestApplicaton\obj\Debug\TestApplicaton.Form1
 D:\TrainingRepo\TrainingRepository\TestApplicaton\obj\Debug\TestApplicaton.Form2.resources
 D:\TrainingRepo\TrainingRepository\TestApplicaton\obj\Debug\TestApplicaton.Properties.Resources.resources
 D:\TrainingRepo\TrainingRepository\TestApplicaton\obj\Debug\TestApplicaton.csproj.GenerateResource.Cache
+D:\TrainingRepo\TrainingRepository\TestApplicaton\obj\Debug\TestApplicaton.Form3.resources

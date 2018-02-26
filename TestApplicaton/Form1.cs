@@ -35,7 +35,9 @@ namespace TestApplicaton
 
         private void btnClickMe_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Clicked !!!!!.....");
+            //MessageBox.Show("Clicked !!!!!.....");
+            Form3 frm3 = new Form3();
+            frm3.Show(this);
         }
     }
 }
