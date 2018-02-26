@@ -29,6 +29,8 @@
         private void InitializeComponent()
         {
             this.lblExcep = new System.Windows.Forms.Label();
+            this.tbName = new System.Windows.Forms.TextBox();
+            this.btnSubmit = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lblExcep
@@ -39,11 +41,30 @@
             this.lblExcep.Size = new System.Drawing.Size(0, 13);
             this.lblExcep.TabIndex = 0;
             // 
+            // tbName
+            // 
+            this.tbName.Location = new System.Drawing.Point(191, 53);
+            this.tbName.Name = "tbName";
+            this.tbName.Size = new System.Drawing.Size(100, 20);
+            this.tbName.TabIndex = 1;
+            // 
+            // btnSubmit
+            // 
+            this.btnSubmit.Location = new System.Drawing.Point(191, 102);
+            this.btnSubmit.Name = "btnSubmit";
+            this.btnSubmit.Size = new System.Drawing.Size(75, 23);
+            this.btnSubmit.TabIndex = 3;
+            this.btnSubmit.Text = "Submit";
+            this.btnSubmit.UseVisualStyleBackColor = true;
+            this.btnSubmit.Click += new System.EventHandler(this.btnSubmit_Click);
+            // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(284, 261);
+            this.ClientSize = new System.Drawing.Size(366, 192);
+            this.Controls.Add(this.btnSubmit);
+            this.Controls.Add(this.tbName);
             this.Controls.Add(this.lblExcep);
             this.Name = "Form2";
             this.Text = "Form2";
@@ -55,5 +76,7 @@
         #endregion
 
         private System.Windows.Forms.Label lblExcep;
+        private System.Windows.Forms.TextBox tbName;
+        private System.Windows.Forms.Button btnSubmit;
     }
 }
