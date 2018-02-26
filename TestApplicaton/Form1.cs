@@ -28,7 +28,7 @@ namespace TestApplicaton
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
             HttpResponseMessage res = new HttpResponseMessage();
-            res.ReasonPhrase = "Dont know reason";
+            res.ReasonPhrase = "Enter your name";
             Form2 frm2 = new Form2(res);
             frm2.Show(this);
         }

@@ -26,5 +26,12 @@ namespace TestApplicaton
             lblExcep.Text = _exception.ReasonPhrase;
         }
 
+        private void btnSubmit_Click(object sender, EventArgs e)
+        {
+            String name = tbName.Text;
+            MessageBox.Show("Entered Name is "+name);
+            tbName.Text = "";
+
+        }
     }
 }
