@@ -29,8 +29,9 @@
         private void InitializeComponent()
         {
             this.lblExcep = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
             this.tbName = new System.Windows.Forms.TextBox();
-            this.btnSubmit = new System.Windows.Forms.Button();
+            this.lblWelcome = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // lblExcep
@@ -40,6 +41,15 @@
             this.lblExcep.Name = "lblExcep";
             this.lblExcep.Size = new System.Drawing.Size(0, 13);
             this.lblExcep.TabIndex = 0;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(99, 89);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(80, 13);
+            this.label1.TabIndex = 1;
+            this.label1.Text = "Login Success ";
             // 
             // tbName
             // 
@@ -58,6 +68,16 @@
             this.btnSubmit.UseVisualStyleBackColor = true;
             this.btnSubmit.Click += new System.EventHandler(this.btnSubmit_Click);
             // 
+            // lblWelcome
+            // 
+            this.lblWelcome.AutoSize = true;
+            this.lblWelcome.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblWelcome.Location = new System.Drawing.Point(99, 122);
+            this.lblWelcome.Name = "lblWelcome";
+            this.lblWelcome.Size = new System.Drawing.Size(100, 15);
+            this.lblWelcome.TabIndex = 2;
+            this.lblWelcome.Text = "Welcome User";
+            // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -65,6 +85,8 @@
             this.ClientSize = new System.Drawing.Size(366, 192);
             this.Controls.Add(this.btnSubmit);
             this.Controls.Add(this.tbName);
+            this.Controls.Add(this.lblWelcome);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.lblExcep);
             this.Name = "Form2";
             this.Text = "Form2";
@@ -76,7 +98,8 @@
         #endregion
 
         private System.Windows.Forms.Label lblExcep;
-        private System.Windows.Forms.TextBox tbName;
+        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button btnSubmit;
+        private System.Windows.Forms.Label lblWelcome;
     }
 }

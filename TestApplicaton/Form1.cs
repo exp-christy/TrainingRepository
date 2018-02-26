@@ -33,7 +33,7 @@ namespace TestApplicaton
             frm2.Show(this);
         }
 
-        private void btnClickMe_Click(object sender, EventArgs e)
+        private void button1_Click_1(object sender, EventArgs e)
         {
             //MessageBox.Show("Clicked !!!!!.....");
             Form3 frm3 = new Form3();
