@@ -26,5 +26,9 @@ namespace TestApplicaton
             lblExcep.Text = _exception.ReasonPhrase;
         }
 
+        private void label1_Click(object sender, EventArgs e)
+        {
+            new Form3().Show();
+        }
     }
 }

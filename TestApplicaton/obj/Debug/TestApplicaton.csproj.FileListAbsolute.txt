@@ -18,3 +18,14 @@ D:\SampleProject\TrainingRepository\TestApplicaton\obj\Debug\TestApplicaton.Prop
 D:\SampleProject\TrainingRepository\TestApplicaton\obj\Debug\TestApplicaton.csproj.GenerateResource.Cache
 D:\SampleProject\TrainingRepository\TestApplicaton\obj\Debug\TestApplicaton.exe
 D:\SampleProject\TrainingRepository\TestApplicaton\obj\Debug\TestApplicaton.pdb
+D:\Project\TrainingRepository\TestApplicaton\bin\Debug\TestApplicaton.exe.config
+D:\Project\TrainingRepository\TestApplicaton\obj\Debug\TestApplicaton.exe
+D:\Project\TrainingRepository\TestApplicaton\obj\Debug\TestApplicaton.pdb
+D:\Project\TrainingRepository\TestApplicaton\obj\Debug\TestApplicaton.csprojResolveAssemblyReference.cache
+D:\Project\TrainingRepository\TestApplicaton\obj\Debug\TestApplicaton.Form1.resources
+D:\Project\TrainingRepository\TestApplicaton\obj\Debug\TestApplicaton.Form2.resources
+D:\Project\TrainingRepository\TestApplicaton\obj\Debug\TestApplicaton.Form3.resources
+D:\Project\TrainingRepository\TestApplicaton\obj\Debug\TestApplicaton.Properties.Resources.resources
+D:\Project\TrainingRepository\TestApplicaton\obj\Debug\TestApplicaton.csproj.GenerateResource.Cache
+D:\Project\TrainingRepository\TestApplicaton\bin\Debug\TestApplicaton.exe
+D:\Project\TrainingRepository\TestApplicaton\bin\Debug\TestApplicaton.pdb
