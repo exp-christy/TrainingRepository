@@ -1,5 +1,2 @@
-xge
-xge
-
 Hello World
-xgeGood Evng
+Good Evng
